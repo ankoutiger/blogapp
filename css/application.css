@@ -178,7 +178,25 @@ body {
   color: #616161;
 }
 
+a {
+  text-decoration: none;
+  color: #616161;
+}
+
 .container {
   padding: 16px 16px;
   width: 100%;
+}
+
+.float_btn {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  width: 64px;
+  height: 64px;
+  text-align: center;
+  border-radius: 100%;
+  background-color: #8AC542;
+  color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
 }
