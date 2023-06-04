@@ -134,12 +134,17 @@
   cursor: pointer;
   display: flex;
   font-size: 12px;
+  position: relative;
 }
 .article_detail img {
   width: 32px;
   height: 32px;
   border-radius: 100%;
   margin-right: 16px;
+}
+.article_detail_actions {
+  right: 0px;
+  position: absolute;
 }
 .article_content {
   padding: 24px 0 32px;
@@ -229,7 +234,7 @@ textarea {
     opacity: 0;
   }
 }
-html {
+@im html {
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -238,7 +243,6 @@ html {
   box-sizing: border-box;
   height: 100%;
 }
-
 *,
 *:before,
 *:after {
