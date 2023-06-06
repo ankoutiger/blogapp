@@ -26,6 +26,8 @@ gem 'faker'
 
 gem 'hamlit'
 
+gem 'annotate'
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
