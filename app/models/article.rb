@@ -19,6 +19,9 @@ class Article < ApplicationRecord
     #uniqueness
     validates :content, uniqueness: true
 
+    #format
+    validates :title, format: { with: /\A(?!\@)/ }
+
     def display_created_at
         I18n.l(self.created_at, format: :default)
     end
