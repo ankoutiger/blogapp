@@ -61,4 +61,8 @@ class User < ApplicationRecord
       'default-avatar.png'
     end
   end
+
+  def has_liked?(article)
+    likes.exists?(article_id: article.id)
+  end
 end
